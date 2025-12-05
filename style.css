@@ -1,0 +1,47 @@
+.container-fluid{
+    background-color: #2061AC;
+    padding:0px 0px 0px 19px;
+}
+
+.filmzone{
+    color:#ebebeb;
+}
+
+.schedule{
+    color:#ebebeb !important;
+    font-size: large;
+}
+.schedule:hover{
+    color: black !important;
+}
+.movies{
+    color:#ebebeb;
+    font-size: large;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.ended{
+    color: grey;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.premiered{
+    color: grey;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px; 
+  margin: 10px;
+}
+
+
+
