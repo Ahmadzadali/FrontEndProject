@@ -16,6 +16,8 @@ axios.get(`https://api.tvmaze.com/shows/${id}`).then(response => {
                 <p><strong>Runtime:</strong> ${response.data.runtime} min</p>
                 <p><strong>Genres:</strong> ${response.data.genres}</p>
             </div>
+            
         </div>
+
     `
 })
