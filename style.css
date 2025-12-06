@@ -37,10 +37,10 @@
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px; 
-  margin: 10px;
+  margin-left: 75px;
 }
 
 
